@@ -52,7 +52,7 @@
                             <a href="#">Contact</a>
                         </li>
                         <li>
-                            <a href="#">Create Post</a>
+                            <a href="CreatePost.aspx">Create Post</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -125,17 +125,6 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, voluptates, voluptas dolore ipsam cumque quam veniam accusantium laudantium adipisci architecto itaque dicta aperiam maiores provident id incidunt autem. Magni, ratione.</p>
                     <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
-                    <hr>
-
-                    <!-- Pager -->
-                    <ul class="pager">
-                        <li class="previous">
-                            <a href="#">&larr; Older</a>
-                        </li>
-                        <li class="next">
-                            <a href="#">Newer &rarr;</a>
-                        </li>
-                    </ul>
 
                 </div>
 

@@ -78,8 +78,8 @@
             <div class="col-lg-8">
                 <h2>Create Post</h2>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Title</label>
-                        <input type="email" placeholder="Enter title" id="exampleInputEmail1" class="form-control">
+                        <label for="postTitle">Title</label>
+                        <asp:TextBox type="text" placeholder="Enter title" id="postTitle" class="form-control" runat="server"></asp:TextBox>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Body</label>
@@ -91,7 +91,7 @@
                     </div>
                 <button class="btn btn-default" type="submit">Create Post</button>
             </div>
-
+<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         </div>
         <!-- /.row -->
 
