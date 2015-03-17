@@ -82,16 +82,15 @@
                         <asp:TextBox type="text" placeholder="Enter title" id="postTitle" class="form-control" runat="server"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Body</label>
-                        <textarea class="form-control" rows="3"></textarea>
+                        <label for="postBody">Body</label>
+                        <asp:TextBox ID="postBody" class="form-control" runat="server" TextMode="MultiLine" Rows="3"></asp:TextBox>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputFile">Image</label>
-                        <input type="file" id="exampleInputFile">
+                        <asp:FileUpload type="file" id="fileUplaod" runat="server" />
                     </div>
-                <button class="btn btn-default" type="submit">Create Post</button>
+                    <asp:Button ID="submitButton" class="btn btn-default" runat="server" Text="Create Post" />
             </div>
-<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         </div>
         <!-- /.row -->
 
