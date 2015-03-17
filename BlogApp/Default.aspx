@@ -51,6 +51,9 @@
                         <li>
                             <a href="#">Contact</a>
                         </li>
+                        <li>
+                            <a href="#">Create Post</a>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Sign Up</a></li>
